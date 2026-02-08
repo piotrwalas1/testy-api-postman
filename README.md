@@ -1,1 +1,25 @@
 # testy-api-postman
+
+# Automated API Testing Pipeline (Postman + Newman + Jenkins)
+
+## 📋 Opis projektu
+Projekt przedstawia w pełni zautomatyzowany proces testowania API. Kolekcja testów stworzona w Postmanie jest automatycznie uruchamiana w środowisku CI/CD (Jenkins) przy użyciu Newmana. Po każdym uruchomieniu generowany jest czytelny raport HTML.
+
+## 🛠 Technologie i narzędzia
+* **Postman** – tworzenie kolekcji testów i asercji.
+* **Newman** – uruchamianie testów z poziomu linii komend.
+* **Jenkins** – automatyzacja procesu (CI/CD).
+* **Newman-reporter-htmlextra** – generowanie zaawansowanych raportów wizualnych.
+* **Git/GitHub** – kontrola wersji.
+
+## 🚀 Funkcje
+- Automatyczne pobieranie najnowszej wersji testów z repozytorium.
+- Testowanie statusów odpowiedzi (200 OK, 404, itp.).
+- Weryfikacja struktury JSON oraz poprawności danych.
+- Generowanie raportów HTML dostępnych bezpośrednio w Jenkinsie.
+
+## ⚙️ Jak uruchomić projekt lokalnie
+1. Sklonuj repozytorium: `git clone https://github.com/piotrwalas1/testy-api-postman.git`
+2. Zainstaluj Newmana: `npm install -g newman`
+3. Zainstaluj reporter: `npm install -g newman-reporter-htmlextra`
+4. Uruchom testy: `newman run testy_api_collection1.json -r htmlextra`
