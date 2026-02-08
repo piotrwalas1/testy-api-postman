@@ -18,7 +18,7 @@ Projekt przedstawia w pełni zautomatyzowany proces testowania API. Kolekcja tes
 - Weryfikacja struktury JSON oraz poprawności danych.
 - Generowanie raportów HTML dostępnych bezpośrednio w Jenkinsie.
 
-  ## 🚀 Pliki: Przypadki testowe, raporty
+ ## 🚀 Pliki: Przypadki testowe, raporty
 * [**Przypadki Testowe**](https://github.com/piotrwalas1/PORTFOLIO/blob/main/API%20Automation%20Testing%20Project%20(JSONPlaceholder).pdf)
 * [**Raport Newman**](https://github.com/piotrwalas1/PORTFOLIO/blob/main/newman2.jpg)
 * [**Raport**](https://github.com/piotrwalas1/PORTFOLIO/blob/main/newman.jpg) 
