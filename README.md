@@ -1,4 +1,3 @@
-# testy-api-postman
 
 # Automated API Testing Pipeline (Postman + Newman + Jenkins)
 # API Automation Testing Project (JSONPlaceholder)
